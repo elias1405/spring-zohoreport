@@ -3,7 +3,7 @@
 	<groupId>net.jclagache</groupId>
 	<name>spring-zohoreport</name>
 	<artifactId>spring-zohoreport</artifactId>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1</version>
 
 	<pluginRepositories>
 		<!--
