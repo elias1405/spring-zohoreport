@@ -1,0 +1,11 @@
+# How to build and test spring-zohoreport
+
+= Introduction =
+
+Add your content here.
+
+
+= Build =
+
+  * Download spring-zohoreport sources as explained in [http://code.google.com/p/spring-zohoreport/source/checkout Source tab].
+  * run 
