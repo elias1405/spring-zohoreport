@@ -8,6 +8,12 @@ spring-zohoreport can be embedded in a Maven project.
 
 = Details =
 
+The Zoho Java Client library first must be downloaded and installed in your local repository.
+  # Download the dependant libraries from the [http://zohoreportsapi.wiki.zoho.com/Java-Client-Library.html Zoho report client API for Java wiki page]
+  # Extract _Zoho\ZohoReportClient\lib\ZohoReportAPIClient.jar_ from the _ZohoReportAPIClient.zip_ archive.
+  # Add the Zoho Java Client library to your maven local repository : 
+{{{>mvn install:install-file -DgroupId=zoho -DartifactId="zoho-report" -Dpackaging=jar -Dversion=2.0 -Dfile=ZohoReportAPIClient.jar}}}
+
 Simply add the Spring-zohoreport repository in your maven _pom.xml_ _repositories_ section : 
 
 {{{
@@ -21,8 +27,13 @@ Spring-zohoreport google code repository
 </repository>
 }}}
 
-Then add the spring-zohoreport dependency in your maven _pom.xml_ _dependencies_ section : 
+Then add the spring-zohoreport and zoho client dependencies in your maven _pom.xml_ _dependencies_ section : 
 {{{
+<dependency>
+  <groupId>zoho</groupId>
+  <artifactId>zoho-report</artifactId>
+  <version>2.0</version>
+</dependency>
 <dependency>
    <groupId>net.jclagache</groupId>
    <artifactId>spring-zohoreport</artifactId>
