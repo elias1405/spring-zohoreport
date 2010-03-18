@@ -1,0 +1,31 @@
+#labels Featured
+# how to use spring-zohoreport in a maven project
+
+= Introduction =
+
+spring-zohoreport can be embedded in a Maven project.
+
+
+= Details =
+
+Simply add the Spring-zohoreport repository in your maven _pom.xml_ _repositories_ section : 
+
+{{{
+<!--
+Spring-zohoreport google code repository 
+-->
+<repository>
+   <id>spring-zohoreport-repository</id>
+   <name>Spring-zohoreport Repository for Maven</name>
+   <url>http://spring-zohoreport.googlecode.com/svn/repo/</url>
+</repository>
+}}}
+
+Then add the spring-zohoreport dependency in your maven _pom.xml_ _dependencies_ section : 
+{{{
+<dependency>
+   <groupId>net.jclagache</groupId>
+   <artifactId>spring-zohoreport</artifactId>
+   <version>0.1</version>
+</dependency>
+}}}
