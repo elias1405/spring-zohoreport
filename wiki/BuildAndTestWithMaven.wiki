@@ -15,3 +15,10 @@ The Zoho Java Client library first must be downloaded and installed in your loca
   * run 
 
 = Test =
+  *
+  * Create file src\test\resources\zoho.properties containing at least :
+{{{
+zohoConfig.apiKey=your_zoho_api_key
+zohoConfig.loginName=your_zoho_login
+zohoConfig.password=your_zoho_password
+}}]
