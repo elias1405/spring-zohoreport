@@ -1,3 +1,4 @@
+#labels Featured
 # How to build and test spring-zohoreport
 
 = Introduction =
@@ -29,4 +30,4 @@ zohoConfig.password=your_zoho_password
 
   * run {{{mvn test}}}
 
-Optionally, the database name (zohoConfig.databaseName) and proxy settings (ProxySettings) can be overwritted in the zoho.properties file.
+Optionally, the database name (_zohoConfig.databaseName_) and ProxySettings (_zohoConfig.proxy., zohoConfig.httpProxy., zohoConfig.httpsProxy.) can be overwritted in the zoho.properties file.
