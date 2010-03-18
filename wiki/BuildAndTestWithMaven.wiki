@@ -3,12 +3,10 @@
 = Introduction =
 
 The Zoho Java Client library first must be downloaded and installed in your local repository.
-
-   1. Download the dependant libraries from the Zoho report client API for Java wiki page
-   2. Extract Zoho\ZohoReportClient\lib\ZohoReportAPIClient.jar from the ZohoReportAPIClient.zip archive.
-   3. Add the Zoho Java Client library to your maven local repository : 
-
->mvn install:install-file -DgroupId=zoho -DartifactId="zoho-report" -Dpackaging=jar -Dversion=2.0 -Dfile=ZohoReportAPIClient.jar 
+  # Download the dependant libraries from the [http://zohoreportsapi.wiki.zoho.com/Java-Client-Library.html Zoho report client API for Java wiki page]
+  # Extract _Zoho\ZohoReportClient\lib\ZohoReportAPIClient.jar_ from the _ZohoReportAPIClient.zip_ archive.
+  # Add the Zoho Java Client library to your maven local repository : 
+{{{>mvn install:install-file -DgroupId=zoho -DartifactId="zoho-report" -Dpackaging=jar -Dversion=2.0 -Dfile=ZohoReportAPIClient.jar}}}
 
 
 = Build =
