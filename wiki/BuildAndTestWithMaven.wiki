@@ -15,10 +15,14 @@ The Zoho Java Client library first must be downloaded and installed in your loca
   * run 
 
 = Test =
-  *
+  * Download spring-zohoreport sources as explained in [http://code.google.com/p/spring-zohoreport/source/checkout Source tab].
   * Create file src\test\resources\zoho.properties containing at least :
 {{{
 zohoConfig.apiKey=your_zoho_api_key
 zohoConfig.loginName=your_zoho_login
 zohoConfig.password=your_zoho_password
-}}]
+}}}
+  The default test database and tables are copied from the public *Super Store Sales Database* database. To copy this database in your environment : 
+   # Sign in Zoho
+   # Goto the [http://reports.zoho.com/ZDBSampleDatabases.cc Zoho Report featured samples page ] and choose the [http://reports.zoho.com/ZDBDataSheetView.cc?DBID=4000000037680 Super Store Sales Database]
+   # In the [http://reports.zoho.com/ZDBDataSheetView.cc?DBID=4000000037680 Super Store Sales Database page ], choose the _"Copy this DataBase"_ link and optionally change the _Database Name:_ to _Super Store Sales_
