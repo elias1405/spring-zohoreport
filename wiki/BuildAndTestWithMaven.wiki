@@ -13,7 +13,7 @@ The Zoho Java Client library first must be downloaded and installed in your loca
 = Build =
 
   * Download spring-zohoreport sources as explained in [http://code.google.com/p/spring-zohoreport/source/checkout Source tab].
-  * run {{{mvn compile}}}
+  * run {{{mvn compile jar:jar}}}
 
 = Test =
   * Download spring-zohoreport sources as explained in [http://code.google.com/p/spring-zohoreport/source/checkout Source tab].
