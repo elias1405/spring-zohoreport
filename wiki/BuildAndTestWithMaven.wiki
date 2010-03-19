@@ -12,12 +12,12 @@ The Zoho Java Client library first must be downloaded and installed in your loca
 
 = Build =
 
-  * Download spring-zohoreport sources as explained in [http://code.google.com/p/spring-zohoreport/source/checkout Source tab].
+  * Download *spring-zohoreport* sources as explained in [http://code.google.com/p/spring-zohoreport/source/checkout Source tab].
   * run {{{mvn compile jar:jar}}}
 
 = Test =
-  * Download spring-zohoreport sources as explained in [http://code.google.com/p/spring-zohoreport/source/checkout Source tab].
-  * Create file src\test\resources\zoho.properties containing at least :
+  * Download *spring-zohoreport* sources as explained in [http://code.google.com/p/spring-zohoreport/source/checkout Source tab].
+  * Create file _src\test\resources\zoho.properties_ containing at least :
 {{{
 zohoConfig.apiKey=your_zoho_api_key
 zohoConfig.loginName=your_zoho_login
@@ -30,4 +30,4 @@ zohoConfig.password=your_zoho_password
 
   * run {{{mvn test}}}
 
-Optionally, the database name (_zohoConfig.databaseName_) and ProxySettings (_zohoConfig.proxy., zohoConfig.httpProxy., zohoConfig.httpsProxy._) can be overwritted in the zoho.properties file.
+Optionally, the database name (_zohoConfig.databaseName_) and ProxySettings (_zohoConfig.proxy., zohoConfig.httpProxy., zohoConfig.httpsProxy._) can be overwritted in the _zoho.properties_ file.
