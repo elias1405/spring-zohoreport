@@ -3,7 +3,7 @@
 
 = Introduction =
 
-You can configure spring-zohoreport to enable http and(or) https to pass through your proxy server
+You can configure *spring-zohoreport* to enable http and(or) https to pass through your proxy server
 
 
 = Details =
